@@ -1,4 +1,4 @@
-package br.ufpa.poo;
+  package br.ufpa.poo;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -31,7 +31,7 @@ class EntregadorTest {
 		
 		
 		// QUAL O VALOR DO PEDIDO????
-		boolean valorDoPedido = true;
+		boolean valorDoPedido = true;  
 		
 		Assertions.assertEquals(entregador.getPedido().statusPagamento(), valorDoPedido);
 	}
